@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<style type="text/css">
+			/*div{
+				width: 200px;
+				border: 1px solid gainsboro;
+				height: 40px;
+				background: pink;
+				border-radius: 5px;
+			}*/
+			
+			jiao{
+				
+				display: block;
+				width: 0px;
+				height: 0px;
+			    position: absolute;
+			    z-index: 2;
+			    left: 100px;
+			    top: -5px;
+			    border:20px solid transparent; 
+ border-bottom-color:#ff0099;
+ border-top:0;
+			}
+			.a{
+ width:0; height:0;
+ line-height:0;
+ border:100px solid transparent; 
+ border-bottom-color:#ff0099;
+ border-top:0;
+}
+
+.linear{
+			height: 500px;
+			width: 500px;
+			border: 1px solid red;
+			/*火狐*/
+			background: -moz-linear-gradient(top, red, blue);
+			/*谷歌*/
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(red), to(blue));
+		}
+
+.test2{
+	width: 200px;
+	height: 40px;
+	background: -moz-linear-gradient(top, red, blue);
+			/*谷歌*/
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(red), to(white));	
+			}		
+		</style>
+		<div id="">
+			
+			<jiao></jiao>
+			aa
+		</div>
+		
+		<div class="a"></div>
+		
+		
+		<div class="linear">
+			212
+		</div>
+		
+		<div class="test2">托尔斯泰</div>
+		
+		<input type="number" name="" id="" value="123" />
+	</body>
+</html>
